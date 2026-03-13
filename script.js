@@ -151,7 +151,7 @@ resetAuto();
 // 6. SCROLL-IN ANIMATIONS (Fade Up)
 // =====================
 const animateEls = document.querySelectorAll(
-  '.service-card, .fleet-card, .diff-card, .stat-card, .about__content, .about__image-wrapper'
+  '.service-card, .fleet-card, .diff-card, .about__content, .about__image-wrapper'
 );
 
 // Set initial state
@@ -193,7 +193,6 @@ function staggerReveal(parent, selector) {
 }
 
 staggerReveal(document.querySelector('.services__grid'), '.service-card');
-staggerReveal(document.querySelector('.stats__grid'), '.stat-card');
 staggerReveal(document.querySelector('.fleet__grid'), '.fleet-card');
 staggerReveal(document.querySelector('.diff__grid'), '.diff-card');
 
